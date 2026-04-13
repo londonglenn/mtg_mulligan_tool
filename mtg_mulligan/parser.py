@@ -1,4 +1,6 @@
-def parse_decklist_and_sideboard(decklist_text: str) -> tuple[list[str], list[str]]:
+from typing import List, Tuple
+
+def parse_decklist_and_sideboard(decklist_text: str) -> Tuple[List[str], List[str]]:
     main_deck = []
     sideboard = []
     current_target = main_deck
