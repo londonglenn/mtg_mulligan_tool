@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 
 from mtg_mulligan.scryfall_cache import get_cached_image_path
 from mtg_mulligan.uploader import upload_results
-
+from mtg_mulligan.hand_generator import choose_play_draw
 
 class MulliganApp:
     def __init__(
@@ -22,6 +22,7 @@ class MulliganApp:
         self.results_file = results_file
         self.username = username
         self.deck_name = deck_name
+        self.current_position = None
 
         self.root = tk.Tk()
         self.root.title("MTG Mulligan Decision")
@@ -56,12 +57,16 @@ class MulliganApp:
 
     def update_status(self):
         self.info_label.config(
-            text=f"User: {self.username} | Deck: {self.deck_name} | Hands classified: {self.hand_count}"
+            text=f"User: {self.username} | Deck: {self.deck_name} | "
+                f"Position: {self.current_position} | Hands classified: {self.hand_count}"
         )
 
     def load_new_hand(self):
         self.current_hand = self.draw_hand_func(self.decklist)
+        self.current_position = choose_play_draw()
         self.image_refs = []
+
+        self.update_status()
 
         for i, card_name in enumerate(self.current_hand):
             img_path = get_cached_image_path(card_name)
@@ -73,13 +78,13 @@ class MulliganApp:
             self.card_labels[i].config(image=tk_img, text=card_name)
 
     def keep_hand(self):
-        self.save_result_func(self.current_hand, "keep", self.results_file)
+        self.save_result_func(self.current_hand, self.current_position, "keep", self.results_file)
         self.hand_count += 1
         self.update_status()
         self.load_new_hand()
 
     def mulligan_hand(self):
-        self.save_result_func(self.current_hand, "mulligan", self.results_file)
+        self.save_result_func(self.current_hand, self.current_position, "mulligan", self.results_file)
         self.hand_count += 1
         self.update_status()
         self.load_new_hand()
