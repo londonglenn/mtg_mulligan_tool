@@ -54,6 +54,7 @@ mtg_mulligan/
 
 On first run, Windows may show a SmartScreen warning:
 - Click **More info** → **Run anyway**
+
 On first run the app will download all of the card images into a local cache for smooth operation. This may take a minute to load. 
 
 ---
