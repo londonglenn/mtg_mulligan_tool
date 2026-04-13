@@ -20,7 +20,7 @@ Desktop tool for collecting Magic: The Gathering mulligan decisions from users.
 - `mtg_mulligan/results.py` - CSV output
 - `mtg_mulligan/uploader.py` - upload logic
 
-## 🚀 Download & Run (Windows Executable)
+## Download & Run (Windows Executable)
 
 You can use the app without installing Python by downloading the prebuilt executable.
 
@@ -41,7 +41,7 @@ You can use the app without installing Python by downloading the prebuilt execut
 You should see something like:
 mtg_mulligan/
 ├── mtg_mulligan.exe
-├── _internal
+└── _internal
 
 ---
 
