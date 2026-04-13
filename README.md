@@ -79,7 +79,7 @@ On first run the app will download all of the card images into a local cache for
 
 ---
 
-## 🔄 Updating
+## Updating
 
 - Download the newest ZIP from **Releases**
 - Replace your old folder with the new one (or keep both)
@@ -87,7 +87,7 @@ On first run the app will download all of the card images into a local cache for
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### “App won’t open”
 - Make sure you **extracted** the ZIP
