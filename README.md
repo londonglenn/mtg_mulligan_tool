@@ -39,9 +39,12 @@ You can use the app without installing Python by downloading the prebuilt execut
 - Open the extracted folder (**do not run from inside the ZIP**)
 
 You should see something like:
+
+```
 mtg_mulligan/
 ├── mtg_mulligan.exe
-└── _internal
+└── _internal/
+```
 
 ---
 
