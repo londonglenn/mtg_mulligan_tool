@@ -1,0 +1,87 @@
+{
+  "Ajani, Nacatl Pariah": {
+    "cmc": 2.0,
+    "is_land": false,
+    "type_line": "Legendary Creature \u2014 Cat Warrior // Legendary Planeswalker \u2014 Ajani"
+  },
+  "Arena of Glory": {
+    "cmc": 0.0,
+    "is_land": true,
+    "type_line": "Land"
+  },
+  "Arid Mesa": {
+    "cmc": 0.0,
+    "is_land": true,
+    "type_line": "Land"
+  },
+  "Blood Moon": {
+    "cmc": 3.0,
+    "is_land": false,
+    "type_line": "Enchantment"
+  },
+  "Flooded Strand": {
+    "cmc": 0.0,
+    "is_land": true,
+    "type_line": "Land"
+  },
+  "Galvanic Discharge": {
+    "cmc": 1.0,
+    "is_land": false,
+    "type_line": "Instant"
+  },
+  "Goblin Bombardment": {
+    "cmc": 2.0,
+    "is_land": false,
+    "type_line": "Enchantment"
+  },
+  "Guide of Souls": {
+    "cmc": 1.0,
+    "is_land": false,
+    "type_line": "Creature \u2014 Human Cleric"
+  },
+  "Marsh Flats": {
+    "cmc": 0.0,
+    "is_land": true,
+    "type_line": "Land"
+  },
+  "Ocelot Pride": {
+    "cmc": 1.0,
+    "is_land": false,
+    "type_line": "Creature \u2014 Cat"
+  },
+  "Phlage, Titan of Fire's Fury": {
+    "cmc": 3.0,
+    "is_land": false,
+    "type_line": "Legendary Creature \u2014 Elder Giant"
+  },
+  "Plains": {
+    "cmc": 0.0,
+    "is_land": true,
+    "type_line": "Basic Land \u2014 Plains"
+  },
+  "Ragavan, Nimble Pilferer": {
+    "cmc": 1.0,
+    "is_land": false,
+    "type_line": "Legendary Creature \u2014 Monkey Pirate"
+  },
+  "Sacred Foundry": {
+    "cmc": 0.0,
+    "is_land": true,
+    "type_line": "Land \u2014 Mountain Plains"
+  },
+  "Seasoned Pyromancer": {
+    "cmc": 3.0,
+    "is_land": false,
+    "type_line": "Creature \u2014 Human Shaman"
+  },
+  "Thraben Charm": {
+    "cmc": 2.0,
+    "is_land": false,
+    "type_line": "Instant"
+  },
+  "Voice of Victory": {
+    "cmc": 2.0,
+    "is_land": false,
+    "type_line": "Creature \u2014 Human Bard"
+  }
+}
