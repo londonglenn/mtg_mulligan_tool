@@ -19,6 +19,16 @@
     "is_land": false,
     "type_line": "Enchantment"
   },
+  "Dalkovan Encampment": {
+    "cmc": 0.0,
+    "is_land": true,
+    "type_line": "Land"
+  },
+  "Elegant Parlor": {
+    "cmc": 0.0,
+    "is_land": true,
+    "type_line": "Land \u2014 Mountain Plains"
+  },
   "Flooded Strand": {
     "cmc": 0.0,
     "is_land": true,
@@ -43,6 +53,11 @@
     "cmc": 0.0,
     "is_land": true,
     "type_line": "Land"
+  },
+  "Mountain": {
+    "cmc": 0.0,
+    "is_land": true,
+    "type_line": "Basic Land \u2014 Mountain"
   },
   "Ocelot Pride": {
     "cmc": 1.0,
@@ -73,6 +88,11 @@
     "cmc": 3.0,
     "is_land": false,
     "type_line": "Creature \u2014 Human Shaman"
+  },
+  "The Legend of Roku": {
+    "cmc": 4.0,
+    "is_land": false,
+    "type_line": "Enchantment \u2014 Saga // Legendary Creature \u2014 Avatar"
   },
   "Thraben Charm": {
     "cmc": 2.0,

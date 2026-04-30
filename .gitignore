@@ -9,7 +9,8 @@ dist/
 
 card_cache/
 results/
-model_cache/
+model_cache
+data/processed
 
 *.spec
 
